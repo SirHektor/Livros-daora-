@@ -1,0 +1,90 @@
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    height: 100vh;
+    animation: gradientAnimation 10s infinite alternate; /* Aplica a animação ao fundo */
+    background: linear-gradient(135deg, #00FF00, #FFFFFF, #FFFF00);
+    background-size: 300% 300%; /* Define um tamanho maior para a animação */
+}
+.container {
+    margin-top: 160px;
+}
+
+@font-face {
+    font-family: rosalia;
+    src: url(Rosalia.otf);
+}
+
+@font-face {
+    font-family: maquina;
+    src: url(atwriter.ttf);
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: rosalia, sans-serif;
+}
+
+.nomes{
+    text-align: center;
+}
+
+input {
+    padding-top: 11px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 11px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.botao1{
+    margin-right: 10px;
+}
+button {
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+}
+p {
+    font-family: maquina, sans-serif;
+}
+
+img {
+    height: 3%;
+    width: 33%;
+    
+}
+.carrossel {
+    text-align: center; /* Centraliza as imagens horizontalmente */
+}
+.carrossel img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem verticalmente */
+}
+#anterior{
+    margin-right: 5px;
+}
+
+.botao3 {
+    margin-left: 10px;
+}
